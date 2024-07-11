@@ -132,28 +132,33 @@
   background-color: white;
 }
 
+.section-one-box-one button a {
+  text-decoration: none;
+  color: black;
+}
+
 /* section 02 */
 
 .section-two {
   margin: 30px 150px;
-  padding: 80px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 500px;
-  min-height: 250px;
+  max-width: 1000px; 
 }
 
 .section-two-title {
   text-align: center;
-  margin: 0px 120px 40px 120px;
-  height: 150px;
+  margin: 0 0 40px 0;
+  height: auto;
 }
 
 .section-two iframe {
   height: 500px;
-  width: 1000px;
+  width: 100%; 
+  width: 1000px; 
   padding: 40px;
   border: 1px solid rgba(13, 19, 33, 0.2);
   border-radius: 16px;
@@ -163,65 +168,62 @@
 
 .section-three {
   margin: 30px 150px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 1000px; /* Ensure content stays within the boundaries */
 }
 
 .section-three-title {
   text-align: center;
-  margin: 0px 120px;
-  height: 150px;
-  position: relative;
+  margin: 0;
+  height: auto;
 }
 
 .section-three-box {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  align-items: center;
+  align-items: stretch; /* Ensure boxes are the same height */
   flex-wrap: wrap;
 }
 
-.section-three-box-one {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  height: 300px;
-  width: 22%;
+.section-three-box > div {
+  flex: 1; /* Ensure boxes grow to fill available space */
+  max-width: 22%; /* Ensure boxes do not exceed their container width */
+  min-width: 250px; /* Prevent boxes from being too narrow */
   border-radius: 16px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.section-three-box-one {
   background: rgba(255, 76, 30, 0.05);
-  padding: 40px;
 }
 
 .section-three-box-two {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  height: 300px;
-  width: 22%;
-  border-radius: 16px;
   background: rgba(0, 76, 232, 0.05);
-  padding: 40px;
 }
 
 .section-three-box-three {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  height: 300px;
-  width: 22%;
-  border-radius: 16px;
   background: rgba(255, 223, 0, 0.05);
-  padding: 40px;
 }
 
 .section-three-box img {
   height: 50px;
   width: 50px;
+}
+
+.section-three-box button {
+  border: none;
+  background: none;
+  font-size: 15px;
+  padding-left: 0;
+}
+
+.section-three-box button a {
+  color: black;
 }
 
 /* Section 04 */
@@ -233,17 +235,17 @@
   background-size: cover;
   border-radius: 16px;
   margin: 30px 150px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 64px 48px;
+  max-width: 1000px; 
 }
 
 .section-four-title {
   text-align: center;
-  position: relative;
-  margin: 0px 157px 24px 157px;
+  margin: 0 0 24px 0;
   color: white;
 }
 
