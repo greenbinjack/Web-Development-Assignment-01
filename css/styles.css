@@ -10,7 +10,7 @@
 /* Header Styles */
 
 .banner {
-  background-image: url("/assets/Hero-bg.png");
+  background-image: url("assets/Hero-bg.png");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -229,7 +229,7 @@
 /* Section 04 */
 
 .section-four {
-  background-image: url('/assets/handshake.jpg');
+  background-image: url('assets/handshake.jpg');
   background-color: #424040;
   background-position: center;
   background-size: cover;
