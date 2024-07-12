@@ -10,7 +10,7 @@
 /* Header Styles */
 
 .banner {
-  background-image: url("/Web-Development-Assignment-01/assets/Hero-bg.png");
+  background-image: url("https://greenbinjack.github.io/Web-Development-Assignment-01/assets/Hero-bg.png");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -229,7 +229,7 @@
 /* Section 04 */
 
 .section-four {
-  background-image: url('/Web-Development-Assignment-01/assets/handshake.jpg');
+  background-image: url('https://greenbinjack.github.io/Web-Development-Assignment-01/assets/handshake.jpg');
   background-color: #424040;
   background-position: center;
   background-size: cover;
